@@ -1,11 +1,9 @@
 #include "main.h"
 /**
- *  main - Entry point
- * 
- *  Print the charactor
- *  Returns 0 when sucess
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
   _putchar('_');
