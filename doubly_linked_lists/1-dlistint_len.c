@@ -16,5 +16,5 @@ while (temp)
 temp = temp->next;
 nodes++;
 }
- return (nodes);
+return (nodes);
 }
