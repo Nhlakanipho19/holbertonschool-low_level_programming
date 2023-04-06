@@ -28,12 +28,12 @@ if (!head || !(*head))
 return (new_node);
 }
 else
-    {
+{
 temp = *head;
 temp->prev = new_node;
 *head = new_node;
 new_node->next = temp;
 return (new_node);
 }
- return (NULL);
+return (NULL);
 }
