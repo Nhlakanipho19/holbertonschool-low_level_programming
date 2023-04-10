@@ -20,7 +20,7 @@ if (fd == -1)
 return (-1);
 
 for (i = 0; text_content[i] != '\0'; i++)
-    ;
+;
 status = write(fd, text_content, i);
 if (status == -1)
 return (-1);
