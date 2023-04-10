@@ -25,6 +25,6 @@ tmp = tmp->next;
 
 if (tmp == NULL)
 return (NULL);
-{
+
 return (tmp->value);
 }
